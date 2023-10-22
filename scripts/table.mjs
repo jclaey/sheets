@@ -36,8 +36,6 @@ const buildTable = (ws, results) => {
             return 0
         })
 
-        console.log(arr)
-
         arr.forEach(obj => {
             if (obj.prop === '!ref') {
                 output += ''
